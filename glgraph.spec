@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	GLgraph visualize mathematical functions
-Summary(pl):	Narzêdzie do wizualizacji funkcji matematycznych
+Summary(pl.UTF-8):   NarzÄ™dzie do wizualizacji funkcji matematycznych
 Name:		glgraph
 Version:	0.2.6
 Release:	0.1
@@ -23,14 +23,14 @@ GLgraph has an command line interface to input a function, to specify
 the minimum and maximum plotting bound and more. It can be
 interactively controlled with the keyboard.
 
-%description -l pl
+%description -l pl.UTF-8
 GLgraph to interaktywny, oparty na OpenGL program do rysowania funkcji
-dla Linuksa napisany w Perlu. Wizualizuje dowoln± funkcjê matematyczn±
+dla Linuksa napisany w Perlu. Wizualizuje dowolnÄ… funkcjÄ™ matematycznÄ…
 1, 2 lub 3 niewiadomych (x,z,t) w modelu drutowym lub jako
-powierzchniê 2D, 3D lub 4D, opcjonalnie z osiami. Tworzy animacjê po
-okresie czasu. GLgraph ma dzia³aj±cy z linii poleceñ interfejs do
-wprowadzania funkcji, podawania minimalnych i maksymalnych parametrów
-rysowania itp. Mo¿e byæ interaktywnie sterowany z klawiatury.
+powierzchniÄ™ 2D, 3D lub 4D, opcjonalnie z osiami. Tworzy animacjÄ™ po
+okresie czasu. GLgraph ma dziaÅ‚ajÄ…cy z linii poleceÅ„ interfejs do
+wprowadzania funkcji, podawania minimalnych i maksymalnych parametrÃ³w
+rysowania itp. MoÅ¼e byÄ‡ interaktywnie sterowany z klawiatury.
 
 %prep
 %setup -q -n %{name}
