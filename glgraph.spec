@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	GLgraph visualize mathematical functions
-Summary(pl.UTF-8):   Narzędzie do wizualizacji funkcji matematycznych
+Summary(pl.UTF-8):	Narzędzie do wizualizacji funkcji matematycznych
 Name:		glgraph
 Version:	0.2.6
 Release:	0.1
